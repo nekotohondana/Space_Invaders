@@ -1,3 +1,7 @@
+https://www.youtube.com/watch?v=KEQisKQsi-4
+
+# forked from Lee Robinson's Space Invaders
+
 # Space Invaders
 
 [![Language](https://img.shields.io/badge/language-python-blue.svg?style=flat)](https://www.python.org)
