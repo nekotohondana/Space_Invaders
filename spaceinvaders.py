@@ -97,10 +97,10 @@ class Bullet(sprite.Sprite): # 弾
             if current_time > self.timer + 700:
                 self.kill() # 画面の上部で弾の表示を消す
                 
-        if self.rect.y > 595:            
-            self.rect.y = 590
+        if self.rect.y > 585:            
+            self.rect.y = 580
             game.screen.blit(self.image2, self.rect)
-            if current_time - self.timer > 1600:
+            if current_time > self.timer + 160:
                 self.kill() # 画面の下部で弾の表示を消す
 
                 
