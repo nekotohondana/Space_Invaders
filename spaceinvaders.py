@@ -23,7 +23,7 @@ BLUE = (80, 255, 239)
 PURPLE = (203, 0, 255)
 RED = (237, 28, 36)
 # スクリーンのサイズをpygame.Surfaceオブジェクトとして渡す
-SCREEN = display.set_mode((800, 600))
+SCREEN = display.set_mode((800, 600),SCALED)
 FONT = FONT_PATH + 'space_invaders.ttf'
 IMG_NAMES = ['ship','shipexplosion1','shipexplosion2','shipexplosion3','mystery',
             'enemy1_1','enemy1_2',
